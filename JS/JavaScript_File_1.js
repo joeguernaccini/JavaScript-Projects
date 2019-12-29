@@ -23,5 +23,8 @@ document.write("\n \n")
 
 var result = (5 * 2);
 document.write(result);
-"\n"
+
 document.write(blues);
+
+
+}
