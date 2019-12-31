@@ -15,6 +15,7 @@ document.write('<br>');
     var age_1 = 12;
         age_2 =15;
         age_3 = 12;
+        
         document.write(age_1 === age_3);
         document.write('<br>');
         document.write(age_1 === 4);
@@ -24,6 +25,8 @@ document.write('<br>');
         document.write(age_1 === age_2);
 document.write('<br>');
 document.write('<br>');
+document.write("Start of and, or, not");
+document.write('<br>');
 document.write((2+5)>(1+2) && (1+3)< (3*8));
 document.write(4<3 && 5>1);
 document.write('<br>');
@@ -31,6 +34,7 @@ document.write(8>9 || 9>8);
 document.write(8<9 || 10<9);
 document.write('<br>');
 document.write(! 5<3);
+document.write(! 5>3);
 
 
 
