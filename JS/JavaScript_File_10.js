@@ -73,7 +73,7 @@ var text = "";
 var b;
 for (b = 60; b > 40; b--) {
     if (b === 55)
-        { continue; }
+        { continue; } //This state the number 55 is to be skipped over
     if (b === 50) 
         {break;}
         text += b + "<br>";
